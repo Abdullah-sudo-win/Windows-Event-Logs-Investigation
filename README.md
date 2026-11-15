@@ -197,15 +197,23 @@ This project strengthened my practical understanding of Windows event monitoring
 
 The findings are based on a simulated training environment and should not be interpreted as confirmation of a real-world compromise.
 
-9. Evidence
 
-Selected screenshots documenting the investigation:
+## 9. Evidence
 
-Screenshot	Investigation
-01-Windows-Event-ID-4798.png	User local group membership enumeration
-03-Windows-Event-Log-Cleared-104.png	Windows event log clearing
-04-Powershell-Downgrade-Event-400.png	PowerShell 2.0 engine initialization
-06-Powershell-Suspicious-ScriptBlock.png	Suspicious PowerShell script block
+The following screenshots provide visual evidence of the four Windows Event Log investigations.
+
+### Investigation 1 — PowerShell Downgrade (Event ID 400)
+![PowerShell Downgrade](01-PowerShell-Downgrade-Event-400.png.png)
+
+### Investigation 2 — Windows Event Log Cleared (Event ID 104)
+![Windows Event Log Cleared](02-Windows-Event-Log-Cleared-104.png.png)
+
+### Investigation 3 — Suspicious PowerShell Script Block (Event ID 4104)
+![Suspicious PowerShell Script Block](03-PowerShell-Suspicious-ScriptBlock-4104.png.png)
+
+### Investigation 4 — User Local Group Membership Enumeration (Event ID 4798)
+![User Group Enumeration](04-Windows-Event-ID-4798.png.png)
+
 
 10. References
 
